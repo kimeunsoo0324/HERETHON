@@ -1,0 +1,12 @@
+#map {
+    width: 390px;
+    height: 844px;
+    cursor: move;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
