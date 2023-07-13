@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="/css/join.css" />
+</head>
+<body>
+        <!-- back 버튼 클릭 시 로그인 화면으로 돌아가도록 해야 함 -->
+        <button class="back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+            <path d="M7.42188 1L1 7.42187L7.42188 13.8437" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <h2 class="text">회원가입</h2>
+
+    <div class="logo-container">
+    </div>
+    <div class="input-container">
+        <p>사용하실 아이디를 입력해주세요.</p>
+        <input type="text" id="input-id" name="input-text" placeholder="아이디 입력"></input>
+        <p>사용하실 비밀번호를 입력해주세요.</p>
+        <input type="password" id="input-pwd" name="input-text" placeholder="비밀번호 입력"></input>
+        <input type="password" id="re-input-pwd" name="input-text" placeholder="비밀번호 재확인"></input>
+        <img id="correct" src="/images/correct.png">
+    </div>
+    <button type="button" class="btn" id="img_btn">
+        <img id="btn_image" src="/images/join1.png" />
+    </button>
+    <script src="/js/join.js"></script>
+</body>
+</html>
