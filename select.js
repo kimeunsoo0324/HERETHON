@@ -1,4 +1,3 @@
-// 이미지 드래그 이동 기능 추가
 var map = document.getElementById('map');
 var isDragging = false;
 var startX, startY, offsetX = 0, offsetY = 0;
