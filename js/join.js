@@ -1,3 +1,5 @@
+// 비밀번호 일치까지 확인하고 나서 회원가입 버튼 색깔 바뀌게, 그리고 클릭 가능/불가능도 넣어야 할 듯
+
 const inputId = document.getElementById("input-id");
 const inputPwd = document.getElementById("input-pwd");
 const reinputPwd = document.getElementById("re-input-pwd");

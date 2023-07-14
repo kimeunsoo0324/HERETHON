@@ -47,6 +47,38 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+window.onload = function() {
+    var pinButton = document.querySelector('.pin');
+
+    pinButton.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+};
+
+let recommendationCount1 = 0;
+let recommendationCount2 = 0;
+    
+function increaseRecommendationCount1() {
+    recommendationCount1++;
+    document.getElementById("recommendationCount1").innerText = recommendationCount1 + "명";
+}
+
+function increaseRecommendationCount2() {
+    recommendationCount2++;
+    document.getElementById("recommendationCount2").innerText = recommendationCount2 + "명";
+}
+
+let unrecommendationCount1 = 0;
+let unrecommendationCount2 = 0;
+
+function increaseRecommendationCount3() {
+    unrecommendationCount1++;
+    document.getElementById("unrecommendationCount1").innerText = unrecommendationCount1 + "명";
+}
+
+function increaseRecommendationCount4() {
+    unrecommendationCount2++;
+    document.getElementById("unrecommendationCount2").innerText = unrecommendationCount2 + "명";
+}
+
 // 검색창을 누르면 search.html로 이동하는 코드
 
 // var inputElement = document.querySelector('.search-bar');
